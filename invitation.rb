@@ -16,7 +16,9 @@ time = gets.chomp
 puts "Who is the host?"
 host = gets.chomp 
 
-
+puts "when is the latest to rsvp?"
+date2 = gets.chomp 
 puts "Hello, #{name}"
-puts "You are cordially invited to #{party} on #"
-
+puts "You are cordially invited to #{party} on #{date} at #{time}. please rsvp no later than #{date2}"
+puts " sincerely"
+puts "#{host}"
